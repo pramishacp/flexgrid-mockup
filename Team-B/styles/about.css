@@ -2,13 +2,10 @@
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+    color: white;
     font-family:  'Nunito Sans', sans-serif;
-    padding: 118px 0px;
-    /*background-image: url('../assets/images/amelia.jpg');
-    background-repeat: no-repeat;*/
-    background-size: cover;
-    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../assets/images/amelia.jpg");
-
+    padding: 118px 20px;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('../assets/images/amelia.jpg') no-repeat center center / cover;
 }
 
 .about-header-container .title{
@@ -17,4 +14,60 @@
 }
 .about-header-container .contents{
     text-align: center;
+    width: 40%;
+}
+.blue-container{
+    background-color: #10C9C3;
+    color: white;
+    padding: 95px 20px;
+    font-weight: bold;
+    font-family:  'Nunito Sans', sans-serif;
+}
+.blue-container span{
+    font-size: 12px;
+}
+.about-me-container{
+    background-color: #F5F5F5;
+}
+
+.about-me-title{
+    font-family:  'Nunito Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 32px;
+    padding-top: 140px;
+    letter-spacing: 1.5px;
+}
+.about-me-content{
+    font-family:  'Nunito Sans', sans-serif;
+    color: grey;
+    margin-top: 30px;
+}
+.project-container{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    font-family:  'Nunito Sans', sans-serif;
+    padding: 100px 20px;
+
+}
+.project-title{
+    font-size: 32px;
+    letter-spacing: 1.5px;
+    margin-bottom: 30px;
+}
+.project-contents{
+    text-align: center;
+    margin-bottom: 30px;
+    color: grey;
+    width: 40%;
+}
+
+/*media-queries*/
+@media(max-width:768px){
+    .about-header-container .contents{
+        width: initial;
+    }
+    .project-contents{
+         width: initial;
+    }
 }
