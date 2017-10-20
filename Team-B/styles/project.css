@@ -42,6 +42,7 @@
     align-items:center;
     justify-content: space-between;
     padding:50px;
+    flex-wrap: wrap;
 }
 .corosal-item
 {
@@ -65,20 +66,30 @@
     background-color: black;
     color:white;
     padding:50px;
+    flex-wrap: wrap;
 }
 .combiner2
 {
     display:flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items:center;
 }
 .list-combiner
 {
     display:flex;
+    flex-wrap: wrap;
     margin-right:auto;
+    align-items:center;
 }
 .combiner1
 {
     display:flex;
+    flex-wrap:wrap;
     justify-content: space-between;
+    align-items:center;
+}
+.wrap-adjust
+{
+    margin:10px;
 }
