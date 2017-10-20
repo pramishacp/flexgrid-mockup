@@ -1,0 +1,17 @@
+.link{
+    float:right;  
+}
+.linkpage{
+    text-decoration: none;
+    color: black;
+    padding-left:20px;
+    font-family: 'Montserrat'
+}
+.nav{
+    padding:20px 50px;
+}
+@media (max-width:767px){
+.nav{
+padding: 20px 15px;
+}
+}

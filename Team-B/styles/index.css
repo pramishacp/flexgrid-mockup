@@ -1,0 +1,31 @@
+.index{
+    margin: 0px;
+}
+.index .index-head{
+    flex-direction: column;
+    padding:0px 30px;
+    background-color: whitesmoke;
+    height: 40%;
+}
+.index .title{
+    align-content: center;
+    text-align: center;
+    padding: 30px;   
+}
+.index .text{
+    font-family: 'Montserrat';
+}
+.index .index-image{
+    display:flex;
+    background-color: blue;
+    flex-direction: row;
+    margin: 0px;
+}
+.index .content{
+    flex:1;
+    background-color:yellow;
+}
+.index .image{
+    padding: 0px;
+}
+
