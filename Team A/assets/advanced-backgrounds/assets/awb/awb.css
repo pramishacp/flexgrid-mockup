@@ -1,0 +1,32 @@
+.nk-awb {
+    position: relative;
+    z-index: 0;
+}
+.nk-awb .nk-awb-inner,
+.nk-awb .nk-awb-overlay,
+.nk-awb .nk-awb-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -99;
+}
+.nk-awb .nk-awb-wrap {
+    overflow: hidden;
+}
+.nk-awb .nk-awb-mouse-parallax {
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+}
+/* Fix for Safari */
+.nk-awb .nk-awb-overlay {
+    z-index: 0;
+}
+.nk-awb .nk-awb-inner {
+    background-size: cover;
+    background-position: center center;
+    z-index: -100;
+}

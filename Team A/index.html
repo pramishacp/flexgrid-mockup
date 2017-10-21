@@ -7,9 +7,157 @@
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="css/media.css">
         <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" href="assets/icons/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+        <link rel="stylesheet" href="assets/flexboxgrid-6.3.1/css/flexboxgrid.min.css" type="text/css" >
+        <link rel="stylesheet" href="assets/flickity-docs/css/flickity-docs.css">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+        <script src="scripts/main.js"></script>
+        <script src="assets/flickity-docs/js/flickity-docs.min.js"></script>
     </head>
-    <body>
+    <body class="margin-0 bg-color-whitesmoke">
+        <div class="container-fluid overflow-hidden index-container">
 
+            <!-- Magazine section -->
+
+            <div class="magazine-container">
+                <div class="magazine-alignment">
+                    <div class="header">new branding agency</div>
+                    <div class="main-header margin-0">We are about to change your way</div>
+                    <div class="sub-header margin-0">you publish on your web</div>
+                </div>
+                <div class="mouse-alignment">
+                    <i onclick="toBottom()" class="pe-7s-angle-down-circle"></i>
+                    </div>   
+            </div>
+
+            <!-- About section -->
+
+            <div class="row about-container">
+                <div class="col-xs-12 header-content center-aligned">
+                    About Our Agency 
+                </div>
+                <div class="col-xs-12 padding-0 col-md-offset-2 col-md-8 sub-header-alignment">
+                    <div class="col-xs-11 col-md-9 padding-0 sub-header-text">
+                        We are a new design studio based in USA. We have over twenty years of combined experience, and know 
+                        a thing or two about designing websites and mobile apps. Clever use of technology
+                        and lean processes enable us to work faster and smarter.
+                    </div>  
+                </div>
+                <div class="col-xs-12 center-aligned">
+                    <img src="assets/images/about-me-signature.png">
+                </div>
+            </div>
+
+            <!-- Feedback section -->
+
+            <div class="row margin-0 feedback-container">
+                <div class="row col-xs-6 col-sm-3 padding-0">
+                    <i class="feedback-icon col-xs-4 pe-7s-portfolio padding-0"></i>
+                    <div class="col-xs-7 padding-0">
+                        <div class="votes">548</div>
+                        <div class="header">projects completed</div>
+                    </div>
+                </div>
+                <div class="row col-xs-6 col-sm-3 padding-0">
+                    <i class="feedback-icon col-xs-4 pe-7s-clock padding-0"></i>
+                    <div class="col-xs-7 padding-0">
+                        <div class="votes">1465</div>
+                        <div class="header">working hours</div>
+                    </div>
+                </div>
+                <div class="row col-xs-6 col-sm-3 margin-top-25 padding-0">
+                    <i class="feedback-icon col-xs-4 pe-7s-star padding-0"></i>
+                    <div class="col-xs-7 padding-0">
+                        <div class="votes">612</div>
+                        <div class="header">positive feedbacks</div>
+                    </div>
+                </div>
+                <div class="row col-xs-6 col-sm-3 margin-top-25 padding-0">
+                    <i class="feedback-icon col-xs-4 pe-7s-like padding-0"></i>
+                    <div class="col-xs-7 padding-0">
+                        <div class="votes">735</div>
+                        <div class="header">happy clients</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- message section -->
+
+            <div class="message-container main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+                <div class="row carousel-cell message-content">
+                    <div class="col-xs-12 col-sm-offset-1 col-sm-9">
+                        <div class="message">
+                            They made the process enjoyable and excitings. I couldn't wait to get detailed reports of what was accomplished that day,
+                            and work together to solve complex application challenges. Couldn't recommend them more
+                            highly.
+                        </div>
+                        <div class="message-by">Mark Antony</div>
+                    </div>
+                </div>
+                <div class="row carousel-cell message-content">
+                    <div class="col-xs-12 col-sm-offset-1 col-sm-9">
+                        <div class="message">
+                            They made the process enjoyable and excitings. I couldn't wait to get detailed reports of what was accomplished that day,
+                            and work together to solve complex application challenges. Couldn't recommend them more
+                            highly.
+                        </div>
+                        <div class="message-by">Mark Antony</div>
+                    </div>
+                </div>
+                <div class="row carousel-cell message-content">
+                    <div class="col-xs-12 col-sm-offset-1 col-sm-9">
+                        <div class="message">
+                            They made the process enjoyable and excitings. I couldn't wait to get detailed reports of what was accomplished that day,
+                            and work together to solve complex application challenges. Couldn't recommend them more
+                            highly.
+                        </div>
+                        <div class="message-by">Mark Antony</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <hr class="divider">
+
+            <!-- Contact Us section -->
+
+            <div class="contact-container">
+                <div class="row margin-0">
+                    <div class="col-xs-12 col-sm-ofset-1 col-sm-4 padding-0 margini-0 contact-us-info">
+                        <div class="header col-xs-12">
+                            Contact Info
+                        </div>
+                        <div class="sub-header col-xs-12">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        </div>
+                        <div class="col-xs-12">
+                            <span> Address: </span>
+                            <span> Lakshmi Mills, Coimbatore </span>
+                        </div>
+                        <div class="contact col-xs-12">
+                            <span> Phone: </span>
+                            <span> +91 1235 567 890 </span>
+                        </div>
+                        <div class="contact col-xs-12">
+                            <span> Email: </span>
+                            <span> someone@someone.com </span>
+                        </div>
+                        <div class="contact col-xs-12">
+                            <span> Fax: </span>
+                            <span> +44 1234 567 890 </span>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-7 contact-us-form">
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </body>
 </html>
