@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+}
+img{
+    display: flex;
+    height: 500px;
+    width: 100%;
+}
+.single-post .content-section{
+    background-color: whitesmoke;
+}
+.single-post .heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.single-post .sub-heading{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+}
+.single-post .content{
+     font-family: 'Work Sans', sans-serif;
+}
+.single-post .special-text{
+     font-family: 'Playfair Display', serif;
+}
+.single-post .comments{
+    background-color: white;
+}
+.single-post .comments-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.single-post .comment-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.single-post .comment-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Work Sans', sans-serif;
+}
+.single-post .john-leonard{
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+}
+.single-post .date{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+.single-post .reply{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+.single-post .leave-a-comment{
+    background-color: whitesmoke;
+}
+.single-post .post{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.single-post .details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.single-post .input-field{
+    background-color: white;
+    padding-left: 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 10px 10px 0px;
+    height: 50px;
+    width: 100%;
+}
+.single-post .description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.single-post .comment-field{
+    background-color: white;
+    padding-left: 20px;
+    border: none;
+    border-radius: 5px;
+    height: 150px;
+    width: 100%;
+}
+.single-post .post-a-comment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.single-post .button-style{
+    background-color: black;
+    height: 50px;
+    width: 150px;
+    color: white;
+    margin-top: 10px;
+    border: none;
+}
