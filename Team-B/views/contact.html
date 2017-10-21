@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
     <link rel="stylesheet" href="../styles/navbar.css">
     <link rel="stylesheet" href="../styles/contact.css">
-
+    <link rel="stylesheet" href="../styles/media.css">
 
 </head>
 
@@ -40,7 +40,7 @@
                     <span>
                  <input class="textbox" type="text" name="FirstName" value=""placeholder="Your name">
                     </span>
-                    <span > <input class="textbox" type="text" name="LastName"
+                    <span> <input class="textbox" type="text" name="LastName"
                     value=""placeholder="Your email">
                     </span>
                 </div>
@@ -54,15 +54,14 @@
     <div class="map-div">
         <div id="map" style="width:100%;height:400px">My map will go here</div>
     </div>
-    <!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHHTiugPx2jq0IBqE98MXnv9FNTEIPrXw"></script>-->
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbhc4bllDPLGxJ8mTYIZ0ycqeji3dG8ZE&callback=initMap">
 
     </script>
     <script>
         function initMap() {
-            var myLatlng=new google.maps.LatLng(51.5, -0.12);
+            var myLatlng = new google.maps.LatLng(51.5, -0.12);
             var mapOptions = {
-                center:  myLatlng,
+                center: myLatlng,
                 zoom: 10,
             }
             var map = new google.maps.Map(document.getElementById("map"), mapOptions);

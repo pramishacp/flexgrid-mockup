@@ -1,0 +1,12 @@
+@media (max-width:767px){
+.nav{
+    padding: 20px 15px;
+}
+.contact .textbox{
+    width: 47%;
+    height: 40px;
+}
+.contact .contact-info{
+    padding: 0px; 
+}
+}

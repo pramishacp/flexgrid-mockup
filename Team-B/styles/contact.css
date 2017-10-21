@@ -5,10 +5,8 @@
     display:flex;
     background-color: whitesmoke;
     margin:0px;
-    padding-top:30px;
     display:flex;
-    padding-left:50px;
-    padding-right:50px;
+    padding:30px 50px 0px;
 }
 .contact .textbox{
     width: 49%;
@@ -26,8 +24,7 @@
     padding-top: 10px;
 }
 .contact .contact-info{
-    padding: 0px;
-    padding-right: 152px;
+    padding: 0px 152px 0px 0px;
 }
 .contact .text-info{
     padding: 0px;
@@ -47,19 +44,9 @@
     font-family: 'Montserrat';
 }
 .contact .regular-button{   
-     padding: 15px 40px;  
-      background-color: #10C9C3;; 
-         border: none;    font-weight: bold; 
-            color: white;  
-              font-family:
-                'Nunito Sans', sans-serif;}
-@media (max-width:767px){
-.contact .textbox{
-    width: 47%;
-    height: 40px;
-}
-.contact .contact-info{
-    padding: 0px;
-    padding-right: 0px;
-}
-}
+    padding: 15px 40px;  
+    background-color: #10C9C3;; 
+    border: none;    font-weight: bold; 
+    color: white;  
+    font-family:'Nunito Sans', sans-serif;}
+
