@@ -1,0 +1,56 @@
+.contact{
+    margin:0px;
+}
+.contact .contact-head{
+    display:flex;
+    background-color: whitesmoke;
+    margin:0px;
+    display:flex;
+    padding:30px 50px 0px;
+}
+.contact .textbox{
+    width: 49%;
+    height: 40px;
+}
+.contact .text-box{
+    width: 100%;
+    height: 160px;
+}
+.contact .text{
+    width: 100%;
+    height: 40px;
+}
+.contact .form-div{
+    padding-top: 10px;
+}
+.contact .contact-info{
+    padding: 0px;
+}
+.contact .text-info{
+    padding: 0px;
+}
+.contact .map-div{
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    background-color: whitesmoke;
+}
+.contact .text-font{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1em;
+}
+.contact .text-font-heading{
+    font-family: 'Montserrat';
+}
+.contact .regular-button{   
+    padding: 15px 40px;  
+    background-color: #10C9C3;; 
+    border: none;    font-weight: bold; 
+    color: white;  
+    font-family:'Nunito Sans', sans-serif;
+}
+.contact .address{
+    width:325px;
+}
+
