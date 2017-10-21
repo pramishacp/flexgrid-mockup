@@ -1,20 +1,70 @@
-.about-header-container{
+.about .about-header-container{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    color: white;
+    font-family:  'Nunito Sans', sans-serif;
+    padding: 118px 50px;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('../assets/images/amelia.jpg') no-repeat center center / cover;
+}
+
+.about .about-header-container .title{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.about .about-header-container .contents{
+    text-align: center;
+    width: 40%;
+}
+.about .blue-container{
+    background-color: #10C9C3;
+    color: white;
+    padding: 95px 50px;
+    font-weight: bold;
+    font-family:  'Nunito Sans', sans-serif;
+}
+
+.about .blue-container span{
+    font-size: 12px;
+}
+
+.about .about-me-container{
+    background-color: #F5F5F5;
+}
+
+.about .about-me-container .about-me-title{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 32px;
+    display: flex;
+    align-items: flex-end;
+    height: 140px;
+    padding: 0px 50px 0px;
+    letter-spacing: 1.5px;
+}
+
+.about .about-me-container .about-me-content{
+    font-family:  'Nunito Sans', sans-serif;
+    color: grey;
+    margin-top: 30px;
+    padding: 0px 50px;
+}
+.about .project-container{
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
     font-family:  'Nunito Sans', sans-serif;
-    padding: 118px 0px;
-    /*background-image: url('../assets/images/amelia.jpg');
-    background-repeat: no-repeat;*/
-    background-size: cover;
-    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../assets/images/amelia.jpg");
+    padding: 100px 50px;
 
 }
-
-.about-header-container .title{
-    font-size: 30px;
-    margin-bottom: 25px;
+.about .project-container .project-title{
+    font-size: 32px;
+    letter-spacing: 1.5px;
+    margin-bottom: 30px;
 }
-.about-header-container .contents{
+.about .project-container .project-contents{
     text-align: center;
+    margin-bottom: 30px;
+    color: grey;
+    width: 40%;
 }

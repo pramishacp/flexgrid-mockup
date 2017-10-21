@@ -1,0 +1,17 @@
+body{
+    margin: 0px;
+}
+.margin-0{
+margin: 0px !important;
+}
+.padding-0{
+    padding: 0px !important;
+}
+.regular-button{
+    padding: 15px 40px;
+    background-color: #10C9C3;;
+    border: none;
+    font-weight: bold;
+    color: white;
+    font-family:  'Nunito Sans', sans-serif;
+}
