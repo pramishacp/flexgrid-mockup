@@ -37,6 +37,9 @@
     height:34px;   
     padding:0;
 }
+.myButton:focus{
+    outline: none;
+}
 .corosal-container
 {
     display:flex;

@@ -15,7 +15,7 @@
 
 @media (max-width:767px){
     .nav{
-        padding: 20px 15px;
+        padding: 20px 15px !important;
     }
     .contact .textbox{
         width: 100%;
