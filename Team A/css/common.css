@@ -13,6 +13,31 @@
     padding: 0px !important;
 }
 .bg-color-whitesmoke{
+    background-color: whitesmoke;
+}
+.section{ 
+    padding-top: 40px !important;     
+    padding-bottom: 40px !important; 
+} 
+footer{
+    display: flex !important;
+    flex-direction: column;
+    height: 150px;
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+}
+footer div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    color: darkgrey;
+    letter-spacing: 0.5px !important;
+    font-size: 1.25em !important;
+}
+footer li{
+    list-style-type: none;
+    margin-right: 20px;
     background: whitesmoke;
 }
 .divider{
