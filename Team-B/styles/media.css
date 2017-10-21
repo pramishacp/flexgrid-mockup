@@ -1,0 +1,28 @@
+/*About page*/
+@media(max-width:768px){
+    .about .about-header-container .contents{
+        width: initial;
+    }
+    .about .project-contents{
+        width: initial;
+    }
+     .about .blue-container .margin-xs{
+        margin-bottom: 60px;
+    }
+    .about .project-container .project-contents {
+        width: 100%;
+    }
+}
+
+@media (max-width:767px){
+.nav{
+    padding: 20px 15px;
+}
+.contact .textbox{
+    width: 47%;
+    height: 40px;
+}
+.contact .address{
+    width:250px;
+}
+}
