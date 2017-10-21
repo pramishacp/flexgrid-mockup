@@ -1,0 +1,23 @@
+.single-work-container .carousel{
+    height: 730px;
+    flex: 0 0 600px;
+    background-color: white;
+}
+.single-work-container .carousel div{
+    height: 100%;
+    width: 100%;
+}
+.single-work-container video {
+    height: 730px;
+    width: 100%;
+}
+.single-work-container button {
+    border: none;
+    background-color: transparent;
+}
+.single-work-container .button-section{
+    background-color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
