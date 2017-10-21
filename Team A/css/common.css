@@ -1,0 +1,14 @@
+.container-fluid{    
+    max-width: 1200px !important;    
+    padding-left: 40px !important;   
+    padding-right: 40px !important;
+}
+.over-flow-hidden{
+    overflow-x: hidden;
+}
+.margin-0{    
+    margin:0px !important;
+}
+.padding-0{
+    padding: 0px !important;
+}

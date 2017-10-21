@@ -35,6 +35,7 @@
     padding-right: 50px;
     padding-bottom: 30px;
     background-color: whitesmoke;
+    padding:50px;
 }
 .contact .text-font{
     font-family: 'Nunito Sans', sans-serif;
@@ -43,11 +44,9 @@
 .contact .text-font-heading{
     font-family: 'Montserrat';
 }
-
 .contact .address{
     width:325px;
 }
-
 #map
 {
     filter: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="g"><feColorMatrix type="matrix" values="0.3 0.3 0.3 0 0 0.3 0.3 0.3 0 0 0.3 0.3 0.3 0 0 0 0 0 1 0"/></filter></svg>#g');
