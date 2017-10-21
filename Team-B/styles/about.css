@@ -33,12 +33,16 @@
 }
 
 .about .about-me-container .about-me-title{
-    font-family:  'Nunito Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     font-weight: bolder;
     font-size: 32px;
-    padding: 140px 50px 0px;
+    display: flex;
+    align-items: flex-end;
+    height: 140px;
+    padding: 0px 50px 0px;
     letter-spacing: 1.5px;
 }
+
 .about .about-me-container .about-me-content{
     font-family:  'Nunito Sans', sans-serif;
     color: grey;
