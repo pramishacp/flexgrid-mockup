@@ -1,3 +1,4 @@
+
 .project-container
 {
     display:flex;
@@ -24,8 +25,10 @@
 
 .img
 {
+    max-width:600px;
+    max-height:500px;
+    height:auto;
     width:100%;
-    height:100%;
 }
 .myButton{
     cursor:pointer;
@@ -47,46 +50,6 @@
 .corosal-item
 {
     display:flex;
-    align-items:center;
-}
-.bold-text
-{
-    font-weight: bold;
-    font-family: 'Montserrat';
-}
-.other-text
-{
-    font-family:'Nunito+Sans';
-}
-.footer-container
-{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: black;
-    color:white;
-    padding:50px;
-    flex-wrap: wrap;
-}
-.combiner2
-{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items:center;
-}
-.list-combiner
-{
-    display:flex;
-    flex-wrap: wrap;
-    margin-right:auto;
-    align-items:center;
-}
-.combiner1
-{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content: space-between;
     align-items:center;
 }
 .wrap-adjust
