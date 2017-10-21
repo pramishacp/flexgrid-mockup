@@ -3,6 +3,9 @@
     padding-left: 40px !important;   
     padding-right: 40px !important;
 }
+.over-flow-hidden{
+    overflow-x: hidden;
+}
 .margin-0{    
     margin:0px !important;
 }
