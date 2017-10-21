@@ -1,0 +1,145 @@
+/* magazine container */
+.index-container .magazine-container{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    color: white;    
+    font-family: 'Nunito Sans', sans-serif;    
+    height: 400px;    
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('../assets/images/Brown-Paper-Bag-MockUp-full.jpg') no-repeat center center / cover;
+}
+.index-container .magazine-container .magazine-alignment{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.index-container .magazine-container .header{
+    text-transform: uppercase;
+    font-size: 0.625em;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.index-container .magazine-container .sub-header{
+    font-size: 1.275em;
+    font-style: italic;
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.index-container .magazine-container .main-header{
+    font-size: 1.775em;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+}
+.index-container .magazine-container .mouse-alignment{
+    font-size: 2em;
+    opacity: 0.7;
+}
+.index-container .magazine-container .mouse-alignment:hover{
+    opacity: 0.4;
+}
+
+/* About section */
+.index-container .center-aligned{
+    display: flex;
+    justify-content: center;
+}
+.index-container .about-container{
+    display: flex;
+    margin: 50px 0px;
+    justify-content: center;
+}
+.index-container .about-container .sub-header-alignment{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.index-container .about-container .header-content{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 1.875em;
+}
+.index-container .about-container .sub-header-text{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.475em;
+}
+
+/* Feedback section */
+.index-container .feedback-container{
+    background-image: url('../assets/images/bg-pattern.jpg');
+    padding: 70px 30px;
+    color: #FFFFFF;
+    margin-bottom: 50px!important;
+    display: flex;
+    justify-content: space-around;
+}
+.index-container .feedback-container .feedback-icon{
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+}
+.index-container .feedback-container .votes{
+    font-size: 1.5em;
+}
+
+/* message section */
+
+.index-container .message-container{
+    background-image: url('../assets/images/bg-pattern.jpg');
+    padding: 70px 30px;
+    color: #FFFFFF;
+    margin-bottom: 50px!important;
+}
+.index-container .message-container .message-content{
+    width: 100%;
+    text-align: center;
+}
+.index-container .message-container .message-by{
+    margin-top: 40px;
+}
+.index-container .message-container .message{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 0.7em;
+    font-weight: italic;
+    letter-spacing: 0.1em;
+}
+.index-container .message-container .message-by{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 0.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+}
+
+/* Carousel section */
+.index-container .carousel-cell{
+    background: none;
+}
+.index-container .carousel-cell:before{
+    content: initial !important;
+}
+.index-container .flickity-viewport{
+    overflow-y: scroll;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* Contact us container */
+.index-container .contact-container{
+    margin-bottom: 50px;
+}
+.index-container .contact-container .header{
+    margin:30px 0px;
+}
+.index-container .contact-container .sub-header{
+    margin:30px 0px;
+}
+.index-container .contact-container .contact{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
