@@ -5,7 +5,7 @@
     flex-direction: column;
     padding:0px 30px;
     background-color: whitesmoke;
-    height: 40%;
+    height: 250px;
 }
 .index .title{
     align-content: center;
@@ -14,6 +14,9 @@
 }
 .index .text{
     font-family: 'Montserrat';
+}
+.index .text-description{
+     font-family: 'Nunito Sans', sans-serif;
 }
 .index .index-image{
     display:flex;
