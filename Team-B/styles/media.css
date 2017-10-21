@@ -1,0 +1,15 @@
+/*About page*/
+@media(max-width:768px){
+    .about .about-header-container .contents{
+        width: initial;
+    }
+    .about .project-contents{
+        width: initial;
+    }
+     .about .blue-container .margin-xs{
+        margin-bottom: 60px;
+    }
+    .about .project-container .project-contents {
+        width: 100%;
+    }
+}
