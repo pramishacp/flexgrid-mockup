@@ -1,4 +1,3 @@
-/*About page*/
 @media(max-width:768px){
     .about .about-header-container .contents{
         width: initial;
@@ -15,17 +14,16 @@
 }
 
 @media (max-width:767px){
-.nav{
-    padding: 20px 15px;
-}
-.contact .textbox{
-    width: 47%;
-    height: 40px;
-}
-.contact .address{
-    width:250px;
-}
-/* project */
+    .nav{
+        padding: 20px 15px;
+    }
+    .contact .textbox{
+        width: 100%;
+        height: 40px;
+    }
+    .contact .address{
+        width:250px;
+    }
 }
 @media only screen and (max-width: 500px) {
     .project-firsthalf
@@ -70,4 +68,5 @@
     }
     
 }
-/* project */
+
+
