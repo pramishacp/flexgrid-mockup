@@ -24,7 +24,7 @@
     padding-top: 10px;
 }
 .contact .contact-info{
-    padding: 0px 152px 0px 0px;
+    padding: 0px;
 }
 .contact .text-info{
     padding: 0px;
@@ -48,5 +48,9 @@
     background-color: #10C9C3;; 
     border: none;    font-weight: bold; 
     color: white;  
-    font-family:'Nunito Sans', sans-serif;}
+    font-family:'Nunito Sans', sans-serif;
+}
+.contact .address{
+    width:325px;
+}
 
