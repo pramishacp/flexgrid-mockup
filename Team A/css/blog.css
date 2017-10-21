@@ -1,0 +1,28 @@
+body{
+    background-color: whitesmoke;
+}
+.blog img{
+    height: auto;
+    width: 100%;
+}
+.blog h3{
+    font-family: 'Playfair Display', serif;
+}
+.blog p{
+   font-family: 'Work Sans', sans-serif;
+}
+.blog .image-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blog .image-1{
+    height: auto;
+    background-color: white;
+    margin: 10px;
+    
+}
+.blog .align-text{
+    align-items: center;
+    padding: 20px;
+}
