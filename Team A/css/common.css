@@ -1,10 +1,10 @@
-.container-fluid{    
-    max-width: 1200px !important;    
-    padding-left: 40px !important;   
-    padding-right: 40px !important;
+.container-fluid{
+    max-width: 1200px !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;    
 }
-.over-flow-hidden{
-    overflow-x: hidden;
+.overflow-hidden{
+    overflow: hidden;
 }
 .margin-0{    
     margin:0px !important;
@@ -40,8 +40,35 @@ footer li{
     margin-right: 20px;
     background: whitesmoke;
 }
-.divider{
-    border-top: 1px solid #35383D;
-    margin-top: 100px;
-    margin-bottom: 50px;
+.portfolio-image{ 
+    height: 300px; 
+    width: 100%; 
+}
+.image-container{
+    position: relative;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.image-container:hover .img-text{
+    opacity: 1;
+    color: #35383D;
+}
+.image-container:hover .person{
+    font-family: 'playfairBold';
+}
+.image-container:hover .profession{
+    font-family: 'playfairRegular';
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 0.7em;
+}
+.img-text{
+    position: absolute;
+    opacity: 0;
+}
+.image-container:hover .portfolio-image{
+    opacity: 0.1;
 }
