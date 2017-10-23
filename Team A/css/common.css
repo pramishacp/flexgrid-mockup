@@ -51,10 +51,6 @@ footer li{
     justify-content: center;
     align-items: center;
 }
-.image-container:hover .img-text{
-    opacity: 1;
-    color: #35383D;
-}
 .image-container:hover .person{
     font-family: 'playfairBold';
 }
@@ -69,6 +65,56 @@ footer li{
     position: absolute;
     opacity: 0;
 }
-.image-container:hover .portfolio-image{
-    opacity: 0.1;
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    width: 100%;
+} 
+nav img{
+    height: 45px;
+    width: 80px;
+    margin-left: 10px;
+    display: inline-block;
+}
+nav li{
+    margin-right: 30px;
+}
+nav a{
+    text-decoration: none;
+    color:black;
+}
+nav .wrapper {
+    display: flex;
+    width: 100%;
+}
+nav label{
+    margin-left: auto;
+}
+#menu-toggle {display: none;}
+.lable-toggle {
+    display:none;
+}
+.nav-bar {
+    background-color: white;
+    display: flex;
+    min-width: 100%;
+    padding: 25px 0px 25px 0px;
+  }
+.load-more-link{ 
+    display: flex; 
+    justify-content: center; 
+    background-color: white;
+    letter-spacing: 0.5px;
+    font-size: 1.25em;
+    padding: 30px 0px;
+    font-family: 'worksansRegular';
+}
+.icon-alignment{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+.menu-icon{
+    width: auto !important;
 }

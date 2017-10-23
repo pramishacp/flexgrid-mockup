@@ -173,6 +173,13 @@
 .index-container .project-container .image-container:hover{
     cursor: pointer;
 }
+.image-container:hover .img-text{
+    opacity: 1;
+    color: #35383D;
+}
+.image-container:hover .portfolio-image{
+    opacity: 0.1;
+}
 
 /* Blog section */
 .index-container .blog-container .blogs{
@@ -307,4 +314,16 @@ html{
 .footer-container .instagram-images{
     width: 100%;
     margin-top: 30px;
+}
+
+/* Navbar code */
+.nav-bar{
+    background-color: initial !important;
+    padding: 10px 0px !important;
+}
+.nav-bar a{
+    color: #FFFFFF !important;
+}
+.nav-bar ul{
+    z-index: 1;
 }

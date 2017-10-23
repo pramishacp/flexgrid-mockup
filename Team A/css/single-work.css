@@ -1,5 +1,15 @@
+.single-work-container .heading{
+    font-family: 'worksansRegular';
+    line-height: 1.6em;
+    letter-spacing: 0.5px;
+}
+.single-work-container .content{
+    font-family: 'worksansRegular';
+    line-height: 1.6em;
+    letter-spacing: 0.5px;
+}
 .single-work-container .carousel{
-    height: 730px;
+    height: 550px;
     flex: 0 0 600px;
     background-color: white;
 }
@@ -8,16 +18,29 @@
     width: 100%;
 }
 .single-work-container video {
-    height: 730px;
+    height: 550px;
     width: 100%;
+    object-fit: fill;
 }
 .single-work-container button {
     border: none;
     background-color: transparent;
+    font-size: 1em;
 }
 .single-work-container .button-section{
     background-color: white;
-    height: 50px;
+    height: 100px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.single-work-container button:focus{
+    outline: none;
+}
+.single-work-container .mainHeading{
+    font-family:'playfairBold';
+    font-size: 1.5em;
+}
+.single-work-container .subHeading{
+    font-family:'worksansBold';
 }

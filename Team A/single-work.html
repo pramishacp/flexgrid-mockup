@@ -7,42 +7,99 @@
         <link rel="stylesheet" href="css/single-work.css">
         <link rel="stylesheet" href="css/media.css">
         <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" href="assets/icons/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
         <link rel="stylesheet" href="assets/flexboxgrid-6.3.1/css/flexboxgrid.min.css" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
         <link rel="stylesheet" href="assets/icons/font-awesome-4.7.0/css/font-awesome.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+        <style>
+            @font-face {
+                font-family: playfairRegular;
+                src: url(assets/fonts/PlayfairDisplay-Regular.ttf);
+            }
+
+            @font-face {
+                font-family: playfairBold;
+                src: url(assets/fonts/PlayfairDisplay-Bold.ttf);
+            }
+
+            @font-face {
+                font-family: playfairItalic;
+                src: url(assets/fonts/PlayfairDisplay-Italic.ttf);
+            }
+
+            @font-face {
+                font-family: worksansRegular;
+                src: url(assets/fonts/WorkSans-Regular.ttf);
+            }
+
+            @font-face {
+                font-family: worksansItalic;
+                src: url(assets/fonts/WorkSans-Italic.ttf);
+            }
+
+            @font-face {
+                font-family: worksansBlack;
+                src: url(assets/fonts/WorkSans-Black.ttf);
+            }
+
+            @font-face {
+                font-family: worksansBold;
+                src: url(assets/fonts/WorkSans-Bold.ttf);
+            }
+        </style>
     </head>
     <body class="margin-0 bg-color-whitesmoke">
+        <nav class="nav-bar">
+            <nav class="wrapper">
+                <img src="assets/images/logo.png">
+                <input type="checkbox" id="menu-toggle" />
+                <label for="menu-toggle" class="label-toggle"></label>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="single-work.html">Work</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="index.html#contact">Contact</li>
+                    <li><a href="#">Buy Theme</a></li>
+                </ul>
+            </nav>
+        </nav>
         <div class="container-fluid single-work-container section">
-            <h2>Video Project</h2>
-            <div class="row margin-0">
+            <p class="mainHeading">Video Project</p>
+            <div class="row margin-0 fadeInUp slow wow animated">
                 <div class="col-sm-8 padding-0 heading">
                     <p>The Video Project collection features programs for all ages from over 200 independent filmmakers, including Oscar and Emmy winners, as well as films that aired on Showtime, HBO and PBS. Our films are regularly honored with top festival awards and with critical praise from major review publications.</p>
                     <p>Most Video Project films are offered with limited public performance rights for public, noncommercial screenings. Educational/institutional streaming options are also available.</p>
                 </div>
-                <div class="col-sm-offset-1 col-sm-3">
-                    <p>Client: Anna Doe</p>
-                    <p>Date: 20.10.2017</p>
-                    <p>Share: Facebook, Twitter, Pinterest</p>
+                <div class="col-md-offset-1 col-sm-4 col-md-3 content">
+                    <p><span class="subHeading">Client:</span>&nbsp;<span> Anna Doe</span></p>
+                    <p><span class="subHeading">Date:</span>&nbsp;<span> 20.10.2017</span></p>
+                    <p><span class="subHeading">Share:</span>&nbsp;<span> Facebook, Twitter, Pinterest</span></p>
                 </div>
             </div>
         </div>
-        <div class="single-work-container">
+        <div class="single-work-container zoomIn slow wow animated">
             <div class="carousel">
+                <video controls class="carousel-video">
+                    <source src="https://ak8.picdn.net/shutterstock/videos/11727518/preview/stock-footage-businessman-working-on-holographic-interface-financial-blue-man-touching-a-visual-screen-with-hol.mp4" type="video/mp4">
+                </video>
                 <video controls class="carousel-video">
                     <source src="https://ak7.picdn.net/shutterstock/videos/24320447/preview/stock-footage-male-driver-sleeping-behind-the-self-driving-steering-wheel-of-an-autonomous-autopilot-driverless-ca.mp4" type="video/mp4">
                 </video>
                 <video controls class="carousel-video">
                         <source src="https://ak9.picdn.net/shutterstock/videos/12377099/preview/stock-footage-animation-slow-moving-of-molecules-or-network-from-glass-and-crystal-animation-of-seamless-loop.mp4" type="video/mp4">
                 </video>
-                <video controls class="carousel-video">
-                    <source src="https://ak8.picdn.net/shutterstock/videos/11727518/preview/stock-footage-businessman-working-on-holographic-interface-financial-blue-man-touching-a-visual-screen-with-hol.mp4" type="video/mp4">
-                </video>
             </div>
             <div class="button-section">
                 <button onclick="plusDivs(-1)"><i class="fa fa-chevron-left" aria-hidden="true"></i> &nbsp; Previous Project</button>
-                <button onclick="plusDivs(1)" style="justify-content:flex-end">Next Project &nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+                <img class="menu-icon" src="assets/images/menu-icon.jpg">
+                <button onclick="plusDivs(1)">Next Project &nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i></button>
             </div>
         </div>
         <script>
