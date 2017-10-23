@@ -1,6 +1,5 @@
 .index-container{    
-    padding-left: 10px !important;   
-    padding-right: 10px !important;
+    padding: 0 10px !important;
 }
 /* magazine container */
 .index-container .magazine-container{
@@ -154,9 +153,6 @@
     position: relative;
     top: 10px;
 }
-.index-container .blog-container ol{
-    bottom: -75px;
-}
 .index-container .message-container li{
     filter: brightness(10);
 }
@@ -193,17 +189,13 @@
     height: auto;
 }
 .index-container .blog-container .blog-text{
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px;
 }
 .index-container .blog-container .blog-info{
     cursor: pointer;
 }
 
 /* Contact us container */
-.index-container .contact-container{
-    margin-top: 150px!important;
-}
 .index-container .contact-container .header{
     margin:30px 0px;
 }
@@ -225,15 +217,14 @@
     font-size: 1em;
 }
 .index-container .contact-container .title{
-    margin-top: 15px;
-    margin-bottom: 25px;
+    margin: 15px 0px 25px;
 }
 .index-container .contact-container .input-field{
     background-color: white;
     padding-left: 20px;
     border: none;
     border-radius: 5px;
-    margin: 10px 10px 10px 0px;
+    margin: 10px 0px;
     height: 50px;
     width: 100%;
     outline: none;
@@ -271,7 +262,6 @@ html{
 }
 .footer-container{
     height: auto;
-    /* background: black url('../assets/images/footer-background.jpg') no-repeat right top; */
     background-color: #35383D;
     width: 100%;
     color: #FFFFFF;
@@ -312,7 +302,7 @@ html{
     justify-content: center;
 }
 .footer-container sub{
-    bottom: -6px;
+    top: 6px;
 }
 .footer-container .instagram-images{
     width: 100%;
