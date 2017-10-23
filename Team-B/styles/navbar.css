@@ -5,7 +5,8 @@
     text-decoration: none;
     color: black;
     padding-left:20px;
-    font-family: 'Montserrat'
+    font-family: 'Montserrat';
+    text-transform: uppercase;
 }
 .nav{
     padding:20px 50px;
