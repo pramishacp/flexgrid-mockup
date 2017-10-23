@@ -11,6 +11,13 @@
     .about .project-container .project-contents {
         width: 100%;
     }
+    .about .blue-container{
+        background-color: #10C9C3;
+        color: white;
+        padding: 95px 20px;
+        font-weight: bold;
+        font-family:  'Nunito Sans', sans-serif;
+    }
 }
 
 @media (max-width:767px){

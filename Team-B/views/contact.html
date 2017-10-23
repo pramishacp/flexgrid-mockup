@@ -30,7 +30,7 @@
     <div class="contact-head row">
         <div class="col-md-5 col-sm-12 col-xs-12 contact-info">
             <div class="address fadeInLeft animated">
-                <h2 class="text-font-heading">Contact-Info</h2>
+                <h2 class="text-font-heading">Contact Info</h2>
                 <p class="text-font"> To give beginning divide,cattle.Give moving won't,there the abundantly she'd she'd brought air upon.Light
                     hath subdue.Life days creature upon first heaven gathering dry.</p>
                 <p class="text-font">
@@ -59,7 +59,7 @@
                 <textarea placeholder="Your Comment"></textarea>
             </div>
             <br>
-            <input class="regular-button overwrite bounceInUp animated" type="submit" value="Submit">
+            <input class="regular-button overwrite bounceInUp animated" type="submit" value="SEND MESSAGE">
         </div>
     </div>
     <div class="map-div">
@@ -119,7 +119,8 @@
             var map = new google.maps.Map(document.getElementById("map"), mapOptions);
             var marker = new google.maps.Marker({
                 position: myLatlng,
-                title: "Hello World!"
+                title: "Hello World!",
+                icon: '../assets/images/markers.png'
             });
 
             marker.setMap(map);

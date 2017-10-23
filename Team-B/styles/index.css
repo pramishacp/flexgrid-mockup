@@ -17,6 +17,7 @@
 }
 .index .text-description{
      font-family: 'Nunito Sans', sans-serif;
+     color:grey;
 }
 .index .index-image{
     display:flex;
@@ -49,7 +50,7 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: rgba(16, 201, 195,0.5);
+  background-color: rgba(16, 201, 195,0.8);
 }
 
 .img-container:hover .img-overlay {
