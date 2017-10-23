@@ -11,14 +11,14 @@
 .contact .textbox{
     width: 100%;
     height: 40px;
+}
+.contact .overwrite{
     border: none;
     outline: none;
 }
 .contact .text{
     width: 100%;
     height: 40px;
-    border: none;
-    outline: none;
 }
 .contact .form-div{
     padding-top: 10px;
