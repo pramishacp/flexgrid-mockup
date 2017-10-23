@@ -1,3 +1,7 @@
+.index-container{    
+    padding-left: 10px !important;   
+    padding-right: 10px !important;
+}
 /* magazine container */
 .index-container .magazine-container{
     display: flex;
@@ -5,66 +9,73 @@
     align-items: center;
     color: white;    
     font-family: 'Nunito Sans', sans-serif;    
-    height: 400px;    
-    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('../assets/images/Brown-Paper-Bag-MockUp-full.jpg') no-repeat center center / cover;
+    height: 690px;  
+    width: 100%;  
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('../assets/images/background-image1.jpg') no-repeat center center / cover;
 }
 .index-container .magazine-container .magazine-alignment{
-    height: 400px;
+    height: 690px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 100px;
 }
 .index-container .magazine-container .header{
     text-transform: uppercase;
     font-size: 0.625em;
-    font-weight: bold;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'worksansBlack';
+    letter-spacing: 0.2em;
     display: flex;
     justify-content: center;
 }
 .index-container .magazine-container .sub-header{
     font-size: 1.275em;
     font-style: italic;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'playfairItalic';
     display: flex;
     justify-content: center;
+    letter-spacing: 0.1em;
 }
 .index-container .magazine-container .main-header{
     font-size: 1.775em;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: bold;
+    font-family: 'playfairBold';
+    letter-spacing: 0.1em;
+    margin-top: 10px !important;
 }
 .index-container .magazine-container .mouse-alignment{
-    font-size: 2em;
-    opacity: 0.7;
+    font-size: 3em;
+    opacity: 0.4;
+    position: relative;
+    bottom: 15px;
 }
 .index-container .magazine-container .mouse-alignment:hover{
-    opacity: 0.4;
+    opacity: 0.2;
 }
 
-/* About section */
+/* common section for about and projects*/
 .index-container .center-aligned{
     display: flex;
     justify-content: center;
 }
-.index-container .about-container{
+.index-container .common-container{
     display: flex;
     margin: 50px 0px;
     justify-content: center;
 }
-.index-container .about-container .sub-header-alignment{
+.index-container .common-container .sub-header-alignment{
     margin-top: 25px;
     margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
 }
-.index-container .about-container .header-content{
-    font-family: 'Playfair Display', serif;
-    font-weight: bold;
+.index-container .common-container .header-content{
+    font-family: 'playfairBold';
     font-size: 1.875em;
 }
-.index-container .about-container .sub-header-text{
+.index-container .common-container .sub-header-text{
     text-align: center;
-    font-family: 'Playfair Display', serif;
-    font-size: 1.475em;
+    font-family: 'playfairRegular';
+    font-size: 1.275em;
 }
 
 /* Feedback section */
@@ -72,17 +83,26 @@
     background-image: url('../assets/images/bg-pattern.jpg');
     padding: 70px 30px;
     color: #FFFFFF;
-    margin-bottom: 50px!important;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 50px !important;
 }
 .index-container .feedback-container .feedback-icon{
     display: flex;
     align-items: center;
     font-size: 2em;
+    margin-right: 10px;
+}
+.index-container .feedback-container .feedback-votes{
+    width: 72%;
 }
 .index-container .feedback-container .votes{
     font-size: 1.5em;
+}
+.index-container .feedback-container .header{
+    text-transform: uppercase;
+    font-family: 'worksansBold';
+    font-size: 0.7em;
 }
 
 /* message section */
@@ -91,7 +111,6 @@
     background-image: url('../assets/images/bg-pattern.jpg');
     padding: 70px 30px;
     color: #FFFFFF;
-    margin-bottom: 50px!important;
 }
 .index-container .message-container .message-content{
     width: 100%;
@@ -101,45 +120,201 @@
     margin-top: 40px;
 }
 .index-container .message-container .message{
-    font-family: 'Work Sans', sans-serif;
-    font-size: 0.7em;
-    font-weight: italic;
+    font-family: 'playfairItalic';
+    font-size: 1em;
     letter-spacing: 0.1em;
 }
 .index-container .message-container .message-by{
-    font-family: 'Work Sans', sans-serif;
-    font-size: 0.5em;
+    font-family: 'playfairBold';
+    font-size: 0.7em;
     text-transform: uppercase;
     font-weight: bold;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
 }
 
 /* Carousel section */
-.index-container .carousel-cell{
+.index-container  .carousel-cell{
+    display: flex;
+    align-items: center;
     background: none;
+    height: auto;
+    justify-content: center;
 }
 .index-container .carousel-cell:before{
     content: initial !important;
 }
-.index-container .flickity-viewport{
+.index-container .message-container .flickity-viewport{
     overflow-y: scroll;
+    display: flex;
+}
+.index-container .flickity-prev-next-button{
+    display: none;
+}
+.index-container .message-container .flickity-page-dots{
+    position: relative;
+    top: 10px;
+}
+.index-container .blog-container ol{
+    bottom: -75px;
+}
+.index-container .message-container li{
+    filter: brightness(10);
 }
 ::-webkit-scrollbar {
     display: none;
 }
 
 
+/* Logo section */
+.index-container .blog-container{
+    margin-bottom: 0px!important;
+}
+.index-container .logo-container .logo-image{
+    width: 100%;
+}
+
+/* Projects container */
+.index-container .project-container .image-container:hover{
+    cursor: pointer;
+}
+
+/* Blog section */
+.index-container .blog-container .blogs{
+    width: 100%;
+    height: auto !important;
+}
+.index-container .blog-container .blog-info{
+    background: #FFFFFF;
+    padding-bottom: 10px;
+    border-radius: 15px;
+}
+.index-container .blog-container .blog-image{
+    width: 100%;
+    height: auto;
+}
+.index-container .blog-container .blog-text{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.index-container .blog-container .blog-info{
+    cursor: pointer;
+}
+
 /* Contact us container */
 .index-container .contact-container{
-    margin-bottom: 50px;
+    margin-top: 150px!important;
 }
 .index-container .contact-container .header{
     margin:30px 0px;
 }
 .index-container .contact-container .sub-header{
     margin:30px 0px;
+    font-family: 'playfairRegular';
+    font-size: 1em;
 }
 .index-container .contact-container .contact{
     margin-top: 10px;
     margin-bottom: 10px;
+}
+.index-container .contact-container .contact-info{
+    font-family: 'worksansRegular';
+    font-size: 0.8em;
+}
+.index-container .contact-container .contact-header{
+    font-family: 'playfairBold';
+    font-size: 1em;
+}
+.index-container .contact-container .title{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.index-container .contact-container .input-field{
+    background-color: white;
+    padding-left: 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 10px 10px 0px;
+    height: 50px;
+    width: 100%;
+    outline: none;
+}
+.index-container .contact-container .email-alignment{
+    padding-right: 0px;
+}
+.index-container .contact-container .description{
+    margin-bottom: 25px;
+}
+.index-container .contact-container .comment-field{
+    background-color: white;
+    padding-left: 20px;
+    border: none;
+    border-radius: 5px;
+    height: 150px;
+    width: 100%;
+    outline: none;
+}
+.index-container .contact-container .button-style{
+    background-color: #35383D;
+    height: 60px;
+    width: 185px;
+    color: white;
+    margin-top: 10px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+}
+/* Footer section */
+html{
+    position: relative;
+    min-height: 100%;
+}
+.footer-container{
+    height: auto;
+    /* background: black url('../assets/images/footer-background.jpg') no-repeat right top; */
+    background-color: #35383D;
+    width: 100%;
+    color: #FFFFFF;
+}
+.footer-container .row{
+    width: 100%;
+}
+.footer-container .footer-alignment{
+    padding: 75px 0;
+}
+.footer-container .header{
+    font-family: 'playfairBold';
+    font-size: 1.2em;
+}
+.footer-container .sub-header{
+    font-family: 'playfairRegular';
+    font-size: 1em;
+    margin-top: 30px;
+}
+.footer-container .footer-icons{
+    display: flex;
+    margin-top: 30px;
+}
+.footer-container li{
+    list-style-type: none;
+    margin-right: 10px;
+}
+.footer-container .tweet{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.footer-container .tweet li{
+    margin-right: 20px;
+}
+.footer-container .creator{
+    display: flex;
+    justify-content: center;
+}
+.footer-container sub{
+    bottom: -6px;
+}
+.footer-container .instagram-images{
+    width: 100%;
+    margin-top: 30px;
 }
